@@ -11,11 +11,11 @@ class Post
     return @@all
   end
 
-  def artist_name
-    if self.artist == nil
+  def author_name
+    if self.author == nil
       return nil
     else
-      return self.artist.name
+      return self.author.name
     end
   end
 
