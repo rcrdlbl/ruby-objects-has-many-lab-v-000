@@ -17,8 +17,8 @@ class Artist
     @posts << post
   end
 
-  def self.song_count
-    return Song.all.count
+  def self.Post_count
+    return Post.all.count
   end
 
 
